@@ -15,16 +15,19 @@ window.onload = function(){
       cats.removeAttribute("style");
       dogs.style.display ="none";
       rabbits.style.display = "none";
+      please.style.display = "none"
     }
     else if (animals === "dogs") {
       dogs.removeAttribute("style")
       rabbits.style.display = "none"
       cats.style.display = "none"
+      please.style.display = "none"
     }
     else if (animals === "rabbits"){
       rabbits.removeAttribute("style");
       dogs.style.display = "none"
       cats.style.display = "none"
+      please.style.display = "none"
     }
     else {
       please.removeAttribute("style")
