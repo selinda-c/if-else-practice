@@ -9,11 +9,8 @@ window.onload = function(){
   please.style.display = "none"
 
   const form = document.querySelector("form");
-
   form.onsubmit = function(event){
     const animals = document.querySelector("input#animal");
-    event.preventDefault();
-
     if (animals === cats){
       cats.removeAttribute("style")
     }
@@ -24,9 +21,8 @@ window.onload = function(){
       rabbits.removeAttribute("style");
     }
     else {
-      
-    }
-
-  }
-
-}
+      please.removeAttribute("style")
+    };
+    event.preventDefault();
+  };
+};
