@@ -1,3 +1,17 @@
 img {
   max-width: 300px;
 }
+div {
+  background-color: aquamarine;
+  text-align: center;
+  list-style-position: inside;
+}
+#cats {
+  background-color: pink;
+}
+#dogs {
+  background-color: rgb(178, 138, 7);
+}
+#rabbits {
+  background-color: rgb(125, 60, 60);
+}
